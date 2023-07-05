@@ -1,13 +1,33 @@
 nav {
-  
   height: 120px;
   width: 100vw;
   background-color: #4056A1;
   color: #FFFFFF;
   padding: 1.5em;
-  
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-nav span {
+.logo {
   font-family: 'Bungee', cursive;
+
 }
+.parent2 {
+  display: flex;
+  
+  box-sizing: inherit;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.icon-container {
+  align-self: center;
+}
+
+
+
+  /* p span {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+} */
