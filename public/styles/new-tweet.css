@@ -1,0 +1,50 @@
+h2 {
+  color:#f4f1ec ;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  background-color: #4056A1;
+  color: #FFFFFF;
+  font-family: 'Bungee', cursive;
+  padding: 0.5em 1em;
+  border: none;
+}
+
+.counter {
+  color: #545149;
+  font-family: 'Bungee', cursive;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #545149;
+  
+}
+textarea {
+  border: none;
+  background-color: #f4f1ec ;
+  resize: none;
+  overflow: auto;
+}
+
+
+label {
+  color: #545149;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
