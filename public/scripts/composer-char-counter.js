@@ -9,7 +9,7 @@ const counter = document.getElementsByClassName('counter');
 
 // Function to update character count
 function updateCharacterCount() {
-  const text = textarea.value;
+  const text = $(this).val();
   const charCount = text.length;
   counter[0].textContent = charCount;
   const remainingCount = 140 - charCount;
@@ -22,9 +22,6 @@ function updateCharacterCount() {
   }
 }
 });
-
-
-
 
 
 
