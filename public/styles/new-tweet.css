@@ -25,7 +25,6 @@ button {
 form {
   display: flex;
   flex-direction: column;
-  border-bottom: 3px solid #545149;
   
 }
 textarea {
@@ -33,6 +32,7 @@ textarea {
   background-color: #f4f1ec ;
   resize: none;
   overflow: auto;
+  border-bottom: 3px solid #545149;
 }
 
 
@@ -47,4 +47,8 @@ label {
 .container {
   display: flex;
   flex-direction: column;
+}
+
+.exceeded {
+color: red;
 }
