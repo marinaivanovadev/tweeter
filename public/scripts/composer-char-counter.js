@@ -3,7 +3,7 @@
 // // Get the textarea element
 // const textarea = document.getElementById('tweet-text');
 // // Add event listener to the textarea
-// textarea.addEventListener('keyup', updateCharacterCount);
+// textarea.addEventListener('input', updateCharacterCount);
 // // Get the counter element
 // const counter = document.getElementsByClassName('counter');
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
   const textarea = $('#tweet-text');
 
   // Add event listener to the textarea
-  textarea.on('keyup', updateCharacterCount);
+  textarea.on('input', updateCharacterCount);
 
   // Function to update character count
   function updateCharacterCount() {
