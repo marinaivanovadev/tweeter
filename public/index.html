@@ -47,7 +47,7 @@
     </header>
   
     <!-- Page-specific (main) content here -->
-    <main class="container">
+    <main id="main-container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form action="/tweets/" method="POST">
@@ -59,19 +59,22 @@
       </footer>
         </form>
       </section>
-      <section>
-        <article class="tweet">
+      <article class="tweet-container">
           <div class="header">
-            <i class="fa-regular fa-face-laugh-wink"></i>
-            <p class="tweet-author">John Doe</p>
-            <p class="tweet-username">@johndoe</p>
+            <div class="name-avatar">
+              <img src="/images/Rhoda.png" alt="" width="40px" height="40px">
+              <p class="tweet-author">Rhoda Jacobs</p> 
+            </div>
+            <div class="username">
+              <p class="tweet-username">@MrsJacobs</p>
+            </div>
           </div>
           <div class="tweet-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel accumsan nulla. Pellentesque suscipit pulvinar feugiat.</p>
+            <p>Hello world!</p>
           </div>
           <footer>
           <div class="tweet-date">
-            <span>July 10, 2023</span>
+            <span>10 days ago</span>
           </div>
           <div class="tweet-icons">
             <i class="fa-sharp fa-solid fa-flag"></i>
@@ -79,9 +82,7 @@
             <i class="fas fa-heart"></i>
           </div>
           </footer>
-        </article>
-      </section>
-
+      </article>
     </main>
     <script src="scripts/composer-char-counter.js"></script>
   </body>

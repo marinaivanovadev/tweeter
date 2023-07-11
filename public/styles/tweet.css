@@ -1,4 +1,4 @@
-.tweet {
+.tweet-container {
   background-color: #f4f1ec;
   padding: 10px;
   margin-bottom: 10px;
@@ -8,5 +8,20 @@
 }
 .header {
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
+
+}
+.name-avatar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.tweet-content {
+  border-bottom: 3px solid #545149;
+}
+
+img {
+  margin-right: 10px;
 }
