@@ -7,8 +7,10 @@ nav {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  position: sticky;
+  position: fixed;
   top: 0;
+  z-index: 2;
+
 }
 
 .logo {
@@ -17,7 +19,6 @@ nav {
 }
 .parent2 {
   display: flex;
-  
   box-sizing: inherit;
   flex-direction: column-reverse;
   justify-content: center;
