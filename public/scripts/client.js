@@ -68,6 +68,35 @@ $(document).ready(function () {
 `);
     return $tweet;
   };
+  const getTweetData = () => {
+    $.ajax({
+      url: "/tweets",
+      type: "GET",
+      dataType: "json",
+      success: (result) => {
+        console.log(result);
+        renderTweets(result);
+      },
+      error: (error) => {
+        console.error("An error occured, ", error);
+      },
+    });
+  };
+  
+  const postTweetData = () => {
+    const data = $(".tweet-form").serialize();
+    console.log(data);
+    $.post("/tweets", data).then((result) => {
+      console.log(result);
+      getTweetData();
+    });
+  };
+
 
   renderTweets(tweetData);
+  $(".tweet-form").on("submit", (event) => {
+  event.preventDefault();
+  console.log("HERE");
+  postTweetData();
+  });
 });
