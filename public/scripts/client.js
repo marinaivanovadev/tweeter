@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 const createTweetElement = function(tweet) {
+  const formattedTime = timeago.format(tweet.created_at);// Use the timeago.format method to display the time passed since a tweet was created. 
   let $tweet = $(`
 <article class="tweet-container">
 <div class="header">
@@ -17,7 +18,7 @@ const createTweetElement = function(tweet) {
 </div>
 <footer>
 <div class="tweet-date">
-  <span>${tweet.created_at}</span>
+  <span>${formattedTime} </span>
 </div>
 <div class="tweet-icons">
   <i class="fa-sharp fa-solid fa-flag"></i>
