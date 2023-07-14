@@ -7,14 +7,14 @@ const createTweetElement = function(tweet) {
 <div class="header">
   <div class="name-avatar">
     <img src="${tweet.user.avatars}" alt="profile picture" width="40px" height="40px">
-    <p class="tweet-author">${tweet.user.name}</p> 
+    <p class="tweet-author">${$("<div>").text(tweet.user.name).html()}</p>
   </div>
   <div class="username">
-    <p class="tweet-username">${tweet.user.handle}</p>
+    <p class="tweet-username">${$("<div>").text(tweet.user.handle).html()}</p>
   </div>
 </div>
 <div class="tweet-content">
-  <p>${tweet.content.text}</p>
+  <p>${$("<div>").text(tweet.content.text).html()}</p>
 </div>
 <footer>
 <div class="tweet-date">
