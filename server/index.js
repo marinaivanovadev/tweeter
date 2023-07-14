@@ -39,10 +39,10 @@ app.get("/tweets", (req,res) => {
 
 app.post("/tweets", (req,res) => {
   console.log(req.body);
-  const {name, age, kind, breath, favouriteFood, wingSpan} = req.body;
+  const { text } = req.body;
 
   const tweet = {
-    name, age, kind, breath, favouriteFood, wingSpan
+  text
   };
 
   tweets.push(tweet);
