@@ -54,14 +54,15 @@
         <h2>Compose Tweet</h2>
         <form action="/tweets/" method="POST" class="tweet-form">
           <label for="tweet-text">What are you humming about?</label>
+          <div id="error-messages">ERROR</div>
           <textarea name="text" id="tweet-text"></textarea>
-          <footer>
+        <footer>
             <button type="submit">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
-      </footer>
+        </footer>
         </form>
       </section>
-      <!-- This article contains individual tweets -->
+       <!-- This article contains individual tweets -->
       <article class="tweets-container"></article> 
     </main>
     <script src="scripts/composer-char-counter.js"></script>

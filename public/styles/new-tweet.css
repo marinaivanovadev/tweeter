@@ -52,3 +52,10 @@ label {
 .exceeded {
 color: red;
 }
+
+#error-messages {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none; /*Hide the error element initially */
+}
