@@ -63,23 +63,34 @@ const postTweetData = (tweetContent) => {
     loadTweets();
   });
 };
+  const showError = (message) => {
+    const $errorElement = $("#error-messages");
+    $errorElement.text(message);
+    $errorElement.slideDown()
+  };
+  const hideError = () => {
+    const $errorElement = $("#error-messages");
+    $errorElement.slideUp();
 
+  }
 
   $(".tweet-form").on("submit", (event) => {
   event.preventDefault(); // Prevent the default form submission
+  
+  hideError();
   // get the content from text tweet
   const tweetContent = $('#tweet-text').val();
   // validation check
   if (!tweetContent) {
-    alert("Tweet content can not be empty");
-    return;
-  }
- 
-  if (tweetContent.length > 140) {
-    alert("Tweet content exceeds the character limit");
+    showError("Tweet content can not be empty");
     return;
   }
 
+  if (tweetContent.length > 140) {
+    showError("Tweet content exceeds the character limit");
+    return;
+  }
+ 
   postTweetData();
   });
 });
