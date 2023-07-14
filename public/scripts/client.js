@@ -55,7 +55,7 @@ const loadTweets = () => {
   });
 };
 
-const postTweetData = () => {
+const postTweetData = (tweetContent) => {
   const data = $(".tweet-form").serialize();
   console.log(data);
   $.post("/tweets", data).then((result) => {
