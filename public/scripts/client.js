@@ -95,4 +95,13 @@ const postTweetData = (tweetContent) => {
  
   postTweetData();
   });
+
+  $("#compose-btn").on("click", function () {
+    // Toggle the new-tweet section
+    $(".new-tweet").slideToggle();
+    // Automatically enable the textarea when the form slides down
+    if ($(".new-tweet").is(":visible")) {
+      $("#tweet-text").focus();
+    }
+  });
 });

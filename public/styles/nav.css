@@ -28,3 +28,16 @@ nav {
   align-self: center;
 }
 
+#compose-btn {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 8px 15px;
+  background-color: #4056A1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#compose-btn:hover {
+  background-color: #4056A1;
+}

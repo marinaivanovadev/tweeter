@@ -1,7 +1,7 @@
 .tweet-container {
   background-color: #f4f1ec;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   border: black solid 3px;
@@ -50,12 +50,13 @@ img {
   body {
     flex-direction: row;
   }
-  .new-tweet {
-    padding-top: 50px;
-  }
+  
   header {
     margin-top: 160px;
     margin-left: 40px;
     margin-right: 40px;
+  }
+  #main-container {
+    margin-top: 100px;
   }
 }
