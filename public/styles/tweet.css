@@ -9,18 +9,18 @@
 }
 
 .tweet-container:hover {
-  box-shadow:5px 5px #4056A1;
+  box-shadow: 5px 5px #4056a1;
 }
 
 .header {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.name-avatar{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.name-avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tweet-content {
@@ -33,7 +33,7 @@ img {
 }
 
 .tweet-icons {
-  color: #4056A1;
+  color: #4056a1;
   transition: color 0.3s;
 }
 
@@ -43,4 +43,19 @@ img {
 
 .tweet-username {
   color: #d7d5db;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  body {
+    flex-direction: row;
+  }
+  .new-tweet {
+    padding-top: 50px;
+  }
+  header {
+    margin-top: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }

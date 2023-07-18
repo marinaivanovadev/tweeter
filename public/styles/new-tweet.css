@@ -44,10 +44,7 @@ label {
 
 
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .exceeded {
 color: red;
