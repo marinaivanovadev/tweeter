@@ -61,6 +61,8 @@ const postTweetData = (tweetContent) => {
   $.post("/tweets", data).then((result) => {
     console.log(result);
     loadTweets();
+    // Clear the textarea after successful submission
+    $('#tweet-text').val('');
   });
 };
   const showError = (message) => {
