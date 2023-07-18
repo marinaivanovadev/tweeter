@@ -1,5 +1,5 @@
 h2 {
-  color:#f4f1ec ;
+  color: #f4f1ec;
 }
 
 footer {
@@ -9,45 +9,38 @@ footer {
 }
 
 button {
-  background-color: #4056A1;
-  color: #FFFFFF;
-  font-family: 'Bungee', cursive;
+  background-color: #4056a1;
+  color: #ffffff;
+  font-family: "Bungee", cursive;
   padding: 0.5em 1em;
   border: none;
 }
 
 .counter {
   color: #545149;
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
 }
-
 
 form {
   display: flex;
   flex-direction: column;
-  
 }
 textarea {
   border: none;
-  background-color: #f4f1ec ;
+  background-color: #f4f1ec;
   resize: none;
   overflow: auto;
   border-bottom: 3px solid #545149;
 }
 
-
 label {
   color: #545149;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
 }
 
-
-
-
-
 .exceeded {
-color: red;
+  color: red;
 }
 
 #error-messages {

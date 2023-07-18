@@ -1,8 +1,8 @@
 nav {
   height: 120px;
   width: 100vw;
-  background-color: #4056A1;
-  color: #FFFFFF;
+  background-color: #4056a1;
+  color: #ffffff;
   padding: 1.5em;
   display: flex;
   justify-content: space-between;
@@ -10,12 +10,10 @@ nav {
   position: fixed;
   top: 0;
   z-index: 2;
-
 }
 
 .logo {
-  font-family: 'Bungee', cursive;
-
+  font-family: "Bungee", cursive;
 }
 .parent2 {
   display: flex;
@@ -32,12 +30,12 @@ nav {
   cursor: pointer;
   margin-left: 10px;
   padding: 8px 15px;
-  background-color: #4056A1;
+  background-color: #4056a1;
   color: white;
   border: none;
   border-radius: 5px;
 }
 
 #compose-btn:hover {
-  background-color: #4056A1;
+  background-color: #4056a1;
 }
