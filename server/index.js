@@ -37,7 +37,6 @@ app.get("/tweets", (req, res) => {
 });
 
 app.post("/tweets", (req, res) => {
-  console.log(req.body);
   const { text } = req.body;
 
   const tweet = {

@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  //console.log('composer-char-counter.js loaded successfully');
-
   // Get the textarea element
   const textarea = $("#tweet-text");
 
