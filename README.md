@@ -21,6 +21,6 @@ This repository is the starter code for the project: Students will fork and clon
 - md5: "^2.1.0"
 - Nodemon: "^1.9.2"
 ## Screenshots
-!["Screenshot of desktop tweet"] https://github.com/marinaivanovadev/tweeter/blob/master/docs/Desctop-page.png
-!["Screenshot of error empty tweet"] https://github.com/marinaivanovadev/tweeter/blob/master/docs/emptyTweet.png
-!["Screenshot of mobile version"] https://github.com/marinaivanovadev/tweeter/blob/master/docs/mobile_page.png
+!["Screenshot of desktop tweet"]( https://github.com/marinaivanovadev/tweeter/blob/master/docs/Desctop-page.png)
+!["Screenshot of error empty tweet"](https://github.com/marinaivanovadev/tweeter/blob/master/docs/emptyTweet.png)
+!["Screenshot of mobile version"](https://github.com/marinaivanovadev/tweeter/blob/master/docs/mobile_page.png)
